@@ -5,7 +5,7 @@ int main()
    int temp,kelvin;
    cout<<"Enter temperature=";
    cin>>temp;
-  	kelvin=temp*(9/5)+32;
+  	kelvin=temp+273.15;
         cout<<"kelvin="<<kelvin;
    return 0;
 }
